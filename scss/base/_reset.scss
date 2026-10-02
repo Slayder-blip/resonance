@@ -1,0 +1,10 @@
+
+//Dans base/, rédigez un reset (marges par défaut, box-sizing, images fluides, héritage de la police dans
+//les champs de formulaire)
+
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
