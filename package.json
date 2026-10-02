@@ -1,0 +1,24 @@
+{
+  "name": "resonance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/main.scss CSS/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Slayder-blip/resonance.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Slayder-blip/resonance/issues"
+  },
+  "homepage": "https://github.com/Slayder-blip/resonance#readme",
+  "devDependencies": {
+    "sass": "^1.105.1"
+  }
+}
