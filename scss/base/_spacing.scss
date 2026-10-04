@@ -1,0 +1,20 @@
+@use '../abstracts/variables' as v;
+
+:root {
+    /* Espacements */
+    --spacing-8 : #{v.$spacing-8};
+    --spacing-16 : #{v.$spacing-16};
+    --spacing-24 : #{v.$spacing-24};
+    --spacing-40 : #{v.$spacing-40};
+    --spacing-64 : #{v.$spacing-64};
+
+    /* Rayons */
+    --radius-6 : #{v.$radius-6};
+    --radius-12 : #{v.$radius-12};
+    --radius-full : #{v.$radius-full};
+
+    /* Breakpoints */
+    --bp-mobile : #{v.$bp-mobile};
+    --bp-tablet : #{v.$bp-tablet};
+    --bp-desktop : #{v.$bp-desktop};
+}

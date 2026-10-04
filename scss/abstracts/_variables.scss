@@ -1,0 +1,67 @@
+// Variables de couleurs 
+
+$color-text-primary:#1C1B2E;
+$color-text-normal:#3A3950;
+$color-text-secondary:#6B6A80;
+
+$color-bg:white;
+$color-bg-2:#F4F5F7;
+$color-border:#E3E5EA;
+$color-border-2:#CBD0D8;
+
+$color-primary:#C8402A;
+$color-primary-hover:#A3311F;
+$color-accent:#F4C95D;
+$color-error:#B3261E;
+
+$color-scene-lac:#1F4E8C;
+$color-scene-forest:#2F6B3A;
+$color-scene-kiosk:#B87A1E;
+
+
+// Variables de typographies 
+
+$size-title:56px;
+$weight-title:800;
+$line-height-title:64px;
+
+$size-section:40px;
+$weight-section:700;
+$line-height-section:48px;
+
+$size-st:28px;
+$weight-st:700;
+$line-height-st:36px;
+
+$size-text-intro:20px;
+$weight-text-intro:400;
+$line-height-text-intro:32px;
+
+$size-text:16px;
+$weight-text:400;
+$line-height-text:26px;
+
+$size-text-small:14px;
+$weight-text-small:400;
+$line-height-text-small:22px;
+
+
+// Variables d'espacements
+
+$spacing-8:8px;
+$spacing-16:16px;
+$spacing-24:24px;
+$spacing-40:40px;
+$spacing-64:64px;
+
+// Variables de rayons
+
+$radius-6:6px;
+$radius-12:12px;
+$radius-full:999px;
+
+// Points de rupture
+
+$bp-mobile: 576px;
+$bp-tablet: 768px;
+$bp-desktop: 1024px;
