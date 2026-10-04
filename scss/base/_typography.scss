@@ -1,23 +1,27 @@
-$size-title:56px;
-$weight-title:800;
-$line-height-title:64px;
+@use '../abstracts/variables' as v;
 
-$size-section:40px;
-$weight-section:700;
-$line-height-section:48px;
+:root {
+  /* Tailles de police */
+    --font-size-title: #{v.$size-title};
+    --font-size-section: #{v.$size-section};
+    --font-size-st: #{v.$size-st};
+    --font-size-text-intro: #{v.$size-text-intro};
+    --font-size-text: #{v.$size-text};
+    --font-size-text-small: #{v.$size-text-small};
 
-$size-st:28px;
-$weight-st:700;
-$line-height-st:36px;
+  /* Graisses (Font weights) */
+    --font-weight-title: #{v.$weight-title};
+    --font-weight-section: #{v.$weight-section};
+    --font-weight-st: #{v.$weight-st};
+    --font-weight-text-intro: #{v.$weight-text-intro};
+    --font-weight-text: #{v.$weight-text};
+    --font-weight-text-small: #{v.$weight-text-small};
 
-$size-text-intro:20px;
-$weight-text-intro:400;
-$line-height-text-intro:32px;
-
-$size-text:16px;
-$weight-text:400;
-$line-height-text:26px;
-
-$size-text-small:14px;
-$weight-text-small:400;
-$line-height-text-small:22px;
+  /* Hauteurs de ligne (Line heights) */
+    --line-height-title: #{v.$line-height-title};
+    --line-height-section: #{v.$line-height-section};
+    --line-height-st: #{v.$line-height-st};
+    --line-height-text-intro: #{v.$line-height-text-intro};
+    --line-height-text: #{v.$line-height-text};
+    --line-height-text-small: #{v.$line-height-text-small};
+}

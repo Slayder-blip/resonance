@@ -1,17 +1,22 @@
-$color-text-primary:#1C1B2E;
-$color-text-normal:#3A3950;
-$color-text-secondary:#6B6A80;
+@use '../abstracts/variables' as v;
 
-$color-bg:white;
-$color-bg-2:#F4F5F7;
-$color-border:#E3E5EA;
-$color-border-2:#CBD0D8;
+:root {
+    /* Palette de couleurs */
+    --color-text-primary: #{v.$color-text-primary};
+    --color-text-normal: #{v.$color-text-normal};
+    --color-text-secondary: #{v.$color-text-secondary};
 
-$color-primary:#C8402A;
-$color-primary-hover:#A3311F;
-$color-accent:#F4C95D;
-$color-error:#B3261E;
+    --color-bg: #{v.$color-bg};
+    --color-bg-2: #{v.$color-bg-2};
+    --color-border: #{v.$color-border};
+    --color-border-2: #{v.$color-border-2};
 
-$color-scene-lac:#1F4E8C;
-$color-scene-forest:#2F6B3A;
-$color-scene-kiosk:#B87A1E;
+    --color-primary: #{v.$color-primary};
+    --color-primary-hover: #{v.$color-primary-hover};
+    --color-accent: #{v.$color-accent};
+    --color-error: #{v.$color-error};
+
+    --color-scene-lac: #{v.$color-scene-lac};
+    --color-scene-forest: #{v.$color-scene-forest};
+    --color-scene-kiosk: #{v.$color-scene-kiosk};
+}
