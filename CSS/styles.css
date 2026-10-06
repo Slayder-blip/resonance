@@ -263,9 +263,9 @@
   background-color: #ffffff;
   color: var(--color-text-primary);
 }
-
+.c-btn {
   /* VARIANTES DE TAILLES */
-
+}
 .c-btn--sm {
   padding: var(--spacing-8) var(--spacing-16);
   font-size: var(--font-size-text-small);
@@ -281,9 +281,9 @@
 .c-btn--icon-only {
   padding: var(--spacing-8) var(--spacing-16);
 }
-
+.c-btn {
   /* ÉTATS */
-
+}
 .c-btn:focus-visible, .c-btn.c-btn--focus {
   outline: 3px solid rgba(224, 73, 44, 0.4);
   outline-offset: 2px;
@@ -292,9 +292,9 @@
   opacity: 0.5;
   cursor: not-allowed;
 }
-
+.c-btn {
   /* SPINNER CHARGEMENT */
-
+}
 .c-btn__spinner {
   width: 16px;
   height: 16px;
@@ -335,9 +335,9 @@
   background-color: var(--color-scene-kiosk);
   color: #ffffff;
 }
-
+.c-badge {
   /* STATUTS */
-
+}
 .c-badge--success {
   background-color: #e6f4ea;
   color: var(--color-scene-forest);
@@ -350,9 +350,9 @@
   background-color: #fce8e6;
   color: var(--color-primary);
 }
-
-/* TAILLES */
-
+.c-badge {
+  /* TAILLES */
+}
 .c-badge--sm {
   padding: 4px var(--spacing-8);
   font-size: 12px;
@@ -361,9 +361,9 @@
   padding: var(--spacing-8) var(--spacing-24);
   font-size: var(--font-size-text);
 }
-
+.c-badge {
   /* STYLES */
-
+}
 .c-badge--outline-forest {
   background-color: transparent;
   border-color: var(--color-scene-forest);
@@ -445,9 +445,9 @@
   gap: var(--spacing-8);
   margin-top: var(--spacing-8);
 }
-
+.c-card {
   /* VARIANTES DE CARTES */
-
+}
 .c-card--featured {
   width: 320px;
 }
